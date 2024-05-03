@@ -11,7 +11,8 @@
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "stream-http": "^3.2.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.91.0"
   },
   "resolutions": {
     "webpack-node-libs-browser": "^2.2.0"
@@ -19,7 +20,8 @@
   "resolve": {
     "fallback": {
       "http": "stream-http"
-    }},
+    }
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -27,7 +29,6 @@
     "eject": "react-scripts eject",
     "postinstall": "patch-webpack-config"
   },
-
   "eslintConfig": {
     "extends": [
       "react-app",
