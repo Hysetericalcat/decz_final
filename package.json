@@ -27,6 +27,7 @@
     "eject": "react-scripts eject",
     "postinstall": "patch-webpack-config"
   },
+
   "eslintConfig": {
     "extends": [
       "react-app",
