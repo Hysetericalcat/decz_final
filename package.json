@@ -16,6 +16,10 @@
   "resolutions": {
     "webpack-node-libs-browser": "^2.2.0"
   },
+  "resolve": {
+    "fallback": {
+      "http": "stream-http"
+    }},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
